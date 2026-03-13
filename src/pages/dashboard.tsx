@@ -4,7 +4,7 @@ import { useState, useEffect } from 'react';
 import { auth, db } from '../services/firebase';
 import { signOut } from 'firebase/auth';
 import { collection, onSnapshot, query, orderBy, limit, doc, setDoc, getDoc } from 'firebase/firestore';
-import { SensorData } from '../types';
+import { SensorData } from '..';
 import SensorCard from '../components/SensorCard';
 import MotorControlCard from '../components/MotorControlCard';
 import HistoryChart from '../components/HistoryChart';
